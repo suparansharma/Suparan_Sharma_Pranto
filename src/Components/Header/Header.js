@@ -5,37 +5,34 @@ import Nav from 'react-bootstrap/Nav';
 import logo from '../../img/logo.png'
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark">
-    <Container>
-      <Navbar.Brand href="#home">
-        <img
-          alt=""
-          src={logo}
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '}
-        Suparan Sharma
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-            {/* <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-        
-          </Nav>
-          <Nav>
-            <Nav.Link href="/">HOME</Nav.Link>
-            <Nav.Link href="/services">SERVICES</Nav.Link>
-            <Nav.Link href="/about">ABOUT ME</Nav.Link>
-            <Nav.Link href="/skills">SKILLS</Nav.Link>
-            <Nav.Link href="/projects">PROJECTS</Nav.Link>
-            <Nav.Link href="/experience">EXPERIENCE</Nav.Link>
-            <Nav.Link eventKey={2} href="/contact">CONTACT</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-    </Container>
-  </Navbar>
+<div>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+            <div class="container">
+                <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll" href="#page-top">
+                    <img src="assets/img/logo.png" alt=""/>
+                </a>
+                {/* <!--end navbar-brand--> */}
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                {/* <!--end navbar-toggler--> */}
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
+                        <a class="nav-item nav-link active ts-scroll" href="#page-top">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-services">Services</a>
+                        <a class="nav-item nav-link ts-scroll" href="#about-me">About Me</a>
+                        <a class="nav-item nav-link ts-scroll" href="#my-skills">Skills</a>
+                        <a class="nav-item nav-link ts-scroll" href="#portfolio">Portfolio</a>
+                        <a class="nav-item nav-link ts-scroll" href="#testimonials">Clients</a>
+                        <a class="nav-item nav-link ts-scroll mr-2" href="#form-contact">Contact</a>
+                    </div>
+                    {/* <!--end navbar-nav--> */}
+                </div>
+                {/* <!--end collapse--> */}
+            </div>
+            {/* <!--end container--> */}
+        </nav>
+</div>
   )
 }
 
