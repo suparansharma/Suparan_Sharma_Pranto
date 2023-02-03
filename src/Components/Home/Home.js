@@ -1,18 +1,15 @@
 import React from "react";
-import pic1 from "./../../img/img-work-09.png";
-import bg from "./../../img/bg-hero.jpg";
-import { Col, Row } from "react-bootstrap";
 import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="ts-page-wrapper" id="page-top">
+    
 
 
       <div id="ts-hero" className="ts-animate-hero-items">
 
         {/* <!--HERO CONTENT ****************************************************************************************--> */}
-        <div className="container position-relative h-100 ts-align__vertical mr-10">
+        <div className="container position-relative h-100 ts-align__vertical name-intro ">
           <div className="row w-100">
             <div className="col-md-7">
               {/* <!--SOCIAL ICONS--> */}
@@ -68,14 +65,7 @@ const Home = () => {
 
       </div>
 
-      {/* <div className="row">
-        <div className="col col-lg-6">1 of 3</div>
-        <div className="col col-lg-6" >
-            <img className="w-100 h-600" src={bg} alt="" srcset="" />
-        </div>
   
-      </div> */}
-    </div>
   );
 };
 

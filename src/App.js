@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import Skill from './Components/Skill/Skill';
+import About from './Components/About/About';
 // import Home from './Pages/Home';
 
 function App() {
@@ -11,8 +13,10 @@ function App() {
    <Header/>
    <Routes>
         <Route exact path="/" element={<Home/>} />
-        {/* <Route path="/about" component={About} />
-        <Route component={NotFound} /> */}
+        <Route exact path="/home" element={<Home/>} />
+       <Route path="/skill" element={<Skill/>} />
+       <Route path="/about-me" element={<About/>} />
+         {/* <Route component={NotFound} /> */}
       </Routes>
     </div>
   );
