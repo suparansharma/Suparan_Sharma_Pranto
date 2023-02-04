@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav d-block d-lg-flex ml-auto text-right">
                         <Link className="nav-item nav-link active ts-scroll" to="/home">Home <span className="sr-only">(current)</span></Link>
-                        <Link className="nav-item nav-link ts-scroll" to="#my-services">Services</Link>
+                        <Link className="nav-item nav-link ts-scroll" to="/service">Services</Link>
                         <Link className="nav-item nav-link ts-scroll" to="/about-me">About Me</Link>
                         <Link className="nav-item nav-link ts-scroll" to="/skill">Skills</Link>
                         <Link className="nav-item nav-link ts-scroll" to="#portfolio">Portfolio</Link>

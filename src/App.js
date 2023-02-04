@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Skill from './Components/Skill/Skill';
 import About from './Components/About/About';
+import Services from './Components/Services/Services';
 // import Home from './Pages/Home';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
         <Route exact path="/home" element={<Home/>} />
        <Route path="/skill" element={<Skill/>} />
        <Route path="/about-me" element={<About/>} />
-         {/* <Route component={NotFound} /> */}
+       <Route path="/service" element={<Services/>} />
+         {/* <Route component={NotFound} />service */}
       </Routes>
     </div>
   );
