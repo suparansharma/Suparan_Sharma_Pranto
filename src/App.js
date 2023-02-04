@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import Skill from './Components/Skill/Skill';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
+import Contact from './Components/Contact/Contact';
 // import Home from './Pages/Home';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
        <Route path="/skill" element={<Skill/>} />
        <Route path="/about-me" element={<About/>} />
        <Route path="/service" element={<Services/>} />
-         {/* <Route component={NotFound} />service */}
+       <Route path="/contact" element={<Contact/>} />
+         {/* <Route component={NotFound} />service contact */}
       </Routes>
     </div>
   );
