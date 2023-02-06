@@ -24,7 +24,7 @@ const Header = () => {
                         <Link className="nav-item nav-link ts-scroll" to="/about-me">About Me</Link>
                         <Link className="nav-item nav-link ts-scroll" to="/skill">Skills</Link>
                         <Link className="nav-item nav-link ts-scroll" to="#portfolio">Portfolio</Link>
-                        <Link className="nav-item nav-link ts-scroll" to="#testimonials">Clients</Link>
+                        <Link className="nav-item nav-link ts-scroll" to="/clients">Clients</Link>
                         <Link className="nav-item nav-link ts-scroll " to="/contact">Contact</Link>
                     </div>
                     {/* <!--end navbar-nav--> */}

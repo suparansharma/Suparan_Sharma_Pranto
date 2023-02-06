@@ -8,6 +8,7 @@ import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
 // import Home from './Pages/Home';
+import Experience from './Components/Experience/Experience';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
        <Route path="/about-me" element={<About/>} />
        <Route path="/service" element={<Services/>} />
        <Route path="/contact" element={<Contact/>} />
-         {/* <Route component={NotFound} />service contact */}
+       <Route path="/clients" element={<Experience/>} />
+         {/* <Route component={NotFound} />service contact  */}
       </Routes>
     </div>
   );
